@@ -30,6 +30,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
+          repository: thefuadeniola/myrequest-os
           path: .
       - name: Setup Node
         uses: actions/setup-node@v4
